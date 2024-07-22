@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Kanhaiya\\Leaning\\Dotnet-microservices\\brew-aspnetcore-microservcies\\ExampleMinimal\\ExampleMinimal\\ExampleMinimal.csproj": {}
+  },
+  "projects": {
+    "D:\\Kanhaiya\\Leaning\\Dotnet-microservices\\brew-aspnetcore-microservcies\\ExampleMinimal\\ExampleMinimal\\ExampleMinimal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kanhaiya\\Leaning\\Dotnet-microservices\\brew-aspnetcore-microservcies\\ExampleMinimal\\ExampleMinimal\\ExampleMinimal.csproj",
+        "projectName": "ExampleMinimal",
+        "projectPath": "D:\\Kanhaiya\\Leaning\\Dotnet-microservices\\brew-aspnetcore-microservcies\\ExampleMinimal\\ExampleMinimal\\ExampleMinimal.csproj",
+        "packagesPath": "C:\\Users\\ANSHUL\\.nuget\\packages\\",
+        "outputPath": "D:\\Kanhaiya\\Leaning\\Dotnet-microservices\\brew-aspnetcore-microservcies\\ExampleMinimal\\ExampleMinimal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANSHUL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.20.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
