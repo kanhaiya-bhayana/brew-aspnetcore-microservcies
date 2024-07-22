@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "86510f73-d482-48b5-a83c-be2cd3619226",
+		"name": "Brew-aspnetcore-ms",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29905029"
+	},
+	"item": [
+		{
+			"name": "TodoItem",
+			"item": [
+				{
+					"name": "FetchTodoItems",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "CreateTodoItem",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7124/todoitems",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7124",
+							"path": [
+								"todoitems"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateTodoItem",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteTodoItem",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
